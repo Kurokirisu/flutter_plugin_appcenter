@@ -33,5 +33,5 @@ xcuserdata
 Icon?
 .tags*
 
-/ios/Flutter/Generated.xcconfig
-/ios/Flutter/flutter_export_environment.sh
+/Flutter/Generated.xcconfig
+/Flutter/flutter_export_environment.sh

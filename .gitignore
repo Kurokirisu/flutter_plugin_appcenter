@@ -156,6 +156,7 @@ doc/api/
 
 ### Flutter ###
 .flutter-plugins
+.flutter-plugins-dependencies
 
 ### VisualStudioCode ###
 .vscode/*
