@@ -87,6 +87,8 @@ public class AppcenterPlugin implements MethodCallHandler {
           }
         }
 
+        AppCenter.setLogLevel(Log.VERBOSE);
+
         Class[] servicesClassesArray = new Class[servicesClasses.size()];
         servicesClassesArray = servicesClasses.toArray(servicesClassesArray);
         AppCenter.start(app, start_secret, servicesClassesArray);

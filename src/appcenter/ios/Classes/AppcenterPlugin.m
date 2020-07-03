@@ -53,6 +53,8 @@
            [serviceClasses addObject: NSClassFromString(name)];
         }
 
+        MSAppCenter.setLogLevel(.verbose);
+
         // Invoking plugin method
         [MSAppCenter start:secret withServices:serviceClasses];
         result(nil);
